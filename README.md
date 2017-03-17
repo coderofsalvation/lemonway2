@@ -31,6 +31,12 @@ unofficial LEMONWAY nodejs client using DIRECTKITJSON2 + es6 (soapless)
       resolve("Done.")
     })
 
+for debug output run:
+
+    $ DEBUG=lemonway node foo.js
+    lemonway RegisterWallet:1.1 {"wallet":"ZmXGZfjgEF7ifzGg","clientMail":"ZmXGZfjgEF7ifzGg@lemonway. ... } +0ms
+    ...
+
 ## Features
 
 * uses DirectkitJSON2
