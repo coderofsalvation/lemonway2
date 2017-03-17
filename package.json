@@ -1,0 +1,28 @@
+{
+  "name": "lemonway2",
+  "version": "1.0.0",
+  "description": "description here",
+  "main": "index.js",
+  "directories": {},
+  "scripts": {
+    "test": "set -ex; for test in test/tests/*; do node --use-strict $test; done"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderofsalvation/lemonway2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coderofsalvation/lemonway2/issues"
+  },
+  "homepage": "https://github.com/coderofsalvation/lemonway2#readme",
+  "dependencies": {
+    "debug": "^2.6.1",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {
+    "rand-token": "^0.3.0"
+  }
+}
