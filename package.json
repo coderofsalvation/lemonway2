@@ -1,7 +1,7 @@
 {
   "name": "lemonway2",
-  "version": "1.0.0",
-  "description": "description here",
+  "version": "1.0.2",
+  "description": "unofficial LEMONWAY nodejs client using DIRECTKITJSON2 + es6 (soapless)", 
   "main": "index.js",
   "directories": {},
   "scripts": {
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/coderofsalvation/lemonway2.git"
   },
-  "keywords": [],
+  "keywords": ["lemonway", "crowdfunding", "payment"],
   "author": "",
   "license": "ISC",
   "bugs": {

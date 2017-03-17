@@ -1,5 +1,7 @@
 unofficial LEMONWAY nodejs client using DIRECTKITJSON2 + es6 (soapless)
 
+![](https://github.com/coderofsalvation/lemonway2/raw/master/lemonway.png)
+
 ## Usage
 
     var lemonway = require('lemonway2')
@@ -40,4 +42,4 @@ unofficial LEMONWAY nodejs client using DIRECTKITJSON2 + es6 (soapless)
 
 ## More info 
 
-Just read the [docs](http://documentation.lemonway.fr/api-en/directkit)
+Just read the [docs](http://documentation.lemonway.fr/api-en/directkit) or checkout the [test](https://github.com/coderofsalvation/lemonway2/raw/master/test/tests/test.js)
