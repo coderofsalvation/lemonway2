@@ -25,7 +25,7 @@ unofficial LEMONWAY nodejs client using DIRECTKITJSON2 + es6 (soapless)
       "clientMail":     payerWallet + "@lemonway.com",
       "clientFirstName":  "Payer",
       "clientLastName":   "Payer"
-    }).then(function(RegisterWalletResult) {
+    }).then( (RegisterWalletResult) => {
       console.log("\n---------- Payer Wallet created: " + payerWallet + " ----------")
       console.log(RegisterWalletResult.WALLET)
       resolve("Done.")
