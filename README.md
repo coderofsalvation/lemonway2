@@ -15,9 +15,11 @@ unofficial LEMONWAY nodejs client using DIRECTKITJSON2 + es6 (soapless)
       "walletUa": "lemonway2",
     })
 
-    client.onError = function(method, version, data, error, response){
-      console.error(method+":"+version+" "+error)
-      console.dir({"postData":data, response:response})
+    client.error = function(method, version, data, error, response, cb){
+	  var message = method+":"+version+" "+JSON.stringify(error)
+	  var info = {error:message, "postData":data, response:response}
+	  if( !cb ) console.dir(info)
+	  else cb(info)
     }
 
     client.RegisterWallet("1.1", {
