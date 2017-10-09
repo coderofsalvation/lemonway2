@@ -1,6 +1,6 @@
 {
   "name": "lemonway2",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "unofficial LEMONWAY nodejs client using DIRECTKITJSON2 + es6 (soapless)", 
   "main": "index.js",
   "directories": {},
