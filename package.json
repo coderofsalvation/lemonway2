@@ -1,7 +1,7 @@
 {
   "name": "lemonway2",
-  "version": "1.0.7",
-  "description": "unofficial LEMONWAY nodejs client using DIRECTKITJSON2 + es6 (soapless)", 
+  "version": "1.0.8",
+  "description": "unofficial LEMONWAY nodejs client using DIRECTKITJSON2 + es6 (soapless)",
   "main": "index.js",
   "directories": {},
   "scripts": {
@@ -11,7 +11,11 @@
     "type": "git",
     "url": "git+https://github.com/coderofsalvation/lemonway2.git"
   },
-  "keywords": ["lemonway", "crowdfunding", "payment"],
+  "keywords": [
+    "lemonway",
+    "crowdfunding",
+    "payment"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -20,7 +24,8 @@
   "homepage": "https://github.com/coderofsalvation/lemonway2#readme",
   "dependencies": {
     "debug": "^2.6.1",
-    "request": "^2.79.0"
+    "request": "^2.79.0",
+    "socks5-https-client": "^1.2.1"
   },
   "devDependencies": {
     "rand-token": "^0.3.0"
