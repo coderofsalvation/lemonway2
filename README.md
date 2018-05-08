@@ -43,7 +43,7 @@ for debug output run:
 
 Lemonway only allows access thru validated ip, so run this in your (local) console:
 
-    ssh -v -i ~/.ssh/id_rsa.penna -p 2222 -N -C -D 9000 username@yourproductionserver.com
+    ssh -v -i ~/.ssh/id_rsa.penna -p 2222 -N -D 9000 username@yourproductionserver.com
 
 now run your nodejs server like this:
 
